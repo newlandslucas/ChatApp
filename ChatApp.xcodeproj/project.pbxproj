@@ -11,6 +11,7 @@
 		94BF39DC29469B09009560CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BF39DB29469B09009560CA /* ContentView.swift */; };
 		94BF39DE29469B0C009560CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94BF39DD29469B0C009560CA /* Assets.xcassets */; };
 		94BF39E129469B0C009560CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94BF39E029469B0C009560CA /* Preview Assets.xcassets */; };
+		94BF39E929469C95009560CA /* TitleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BF39E829469C95009560CA /* TitleRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		94BF39DB29469B09009560CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		94BF39DD29469B0C009560CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94BF39E029469B0C009560CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		94BF39E829469C95009560CA /* TitleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		94BF39E729469C17009560CA /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				94BF39E829469C95009560CA /* TitleRow.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			files = (
 				94BF39DC29469B09009560CA /* ContentView.swift in Sources */,
 				94BF39DA29469B09009560CA /* ChatAppApp.swift in Sources */,
+				94BF39E929469C95009560CA /* TitleRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
